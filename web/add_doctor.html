@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Doctor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #d4fc79, #96e6a1); /* Gradient background */
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.95); /* Almost solid white */
+            padding: 40px;
+            width: 50%;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        label {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background: linear-gradient(to right, #00c853, #64dd17);
+            color: white;
+            padding: 12px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background: linear-gradient(to right, #388e3c, #43a047);
+            transform: scale(1.05);
+        }
+
+        @media screen and (max-width: 600px) {
+            .form-container {
+                width: 85%;
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Add a Doctor</h2>
+        <form action="AddDoctorServlet" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+
+            <label for="specialty">Specialty:</label>
+            <input type="text" name="specialty" required>
+
+            <label for="experience">Experience (Years):</label>
+            <input type="number" name="experience" required>
+
+            <input type="submit" value="Add Doctor">
+        </form>
+    </div>
+</body>
+</html>

@@ -44,7 +44,7 @@ Landing page of the Hospital Management System, with navigation options to all k
 
 ### 🧾 Patient Registration Page  
 Form to enter and store new patient information securely.  
-![Patient Registration](assets/patient -register.png)
+![Patient Registration](assets/patient-register.png)
 
 ---
 

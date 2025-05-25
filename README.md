@@ -38,19 +38,19 @@ The main goal of this project is to simplify hospital workflows by digitizing co
 
 ### 🖼️ Website Home Page  
 Landing page of the Hospital Management System, with navigation options to all key modules.  
-![Website Home](assets/homepage.png)
+![Website Home](assets/webiste.png)
 
 ---
 
 ### 🧾 Patient Registration Page  
 Form to enter and store new patient information securely.  
-![Patient Registration](assets/patient_registration.png)
+![Patient Registration](assets/patient -register.png)
 
 ---
 
 ### 🩺 Add Doctor Page  
 Admin can add doctor profiles including name, specialization, availability, and contact.  
-![Add Doctor](assets/add_doctor.png)
+![Add Doctor](assets/addd-doctor.png)
 
 ---
 
